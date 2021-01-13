@@ -36,3 +36,8 @@ function probability (weights) {
       throw new TypeError('Provided weights must be in Object or Map format')
   }
 }
+
+module.exports = {
+  standardDeviation,
+  probability
+}
